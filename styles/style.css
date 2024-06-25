@@ -2,3 +2,37 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
+
+.franchise-btn{
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 25px;
+}
+.order-online-btn{
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+}
+.arrow-icon{
+    border-radius: 20px;
+    color: #ed1c24;
+    background-color: #ffffff;
+    padding: 5px;
+}
+.menu{
+    display: none;
+    position: absolute;
+    left: 20px;
+    margin: 10px;
+}
+
+@media(max-width: 755px){
+    .menu{
+        display: block;
+    }
+ 
+}

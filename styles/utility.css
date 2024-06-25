@@ -9,6 +9,17 @@ html{
     font-weight: lighter;
 }
 
+/* navbar  */
+.nav-text{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.menu-icon{
+    font-size: 2rem;
+}
+
+/* navbar  */
+
 /* flex classes started */
 .d-flex{
     display: flex;
