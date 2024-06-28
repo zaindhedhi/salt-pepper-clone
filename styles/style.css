@@ -5,6 +5,10 @@ a{
     color: #ffffff;
 }
 
+.logo{
+    width: 165px;
+    
+}
 .franchise-btn{
     background: transparent;
     border: 1px solid #ffffff;
@@ -13,6 +17,7 @@ a{
     border-radius: 25px;
 }
 .order-online-btn{
+    font-size: 15px;
     background-color: #ff0000;
     color: #ffffff;
     border: none;
@@ -39,8 +44,14 @@ a{
 /* main started  */
 /* section 01  */
 .order-btn{
-    display: block;
-    text-align: center;
+    padding: 15px 25px 15px 25px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 13px;
+    margin: 10px 65px ;
+    width: 174px;
 }
 
 
@@ -63,15 +74,15 @@ a{
     .menu{
         display: block;
     }
-    a{
+    .nav-text{
         display: none;
     }
     .franchise-btn{
         display: none;
     }
-}
-@media(max-width: 400px){
-    .order-online-btn{
-        display: none;
+    .container{
+        width: 300%;
     }
+
 }
+
