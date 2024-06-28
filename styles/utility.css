@@ -20,6 +20,25 @@ html{
 
 /* navbar  */
 
+/* main started */
+/* section 01  */
+.logo-text{
+    font-family: "Jaro", sans-serif;
+   font-size: 5rem;
+}
+.welcome-h1{
+    font-size: 3rem;
+}
+.line{
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+
 /* flex classes started */
 .d-flex{
     display: flex;
@@ -90,6 +109,9 @@ html{
 }
 .mt5{
     margin-top: 25px;
+}
+.mt6{
+    margin-top: 60px;
 }
 .mb1{
     margin-bottom: 5px;
@@ -286,7 +308,7 @@ html{
 .bg-dark{
     background-color: black;
 }
-.bg-light{
+.bg-white{
     background-color: #ffffff;
 }
 .text-white{

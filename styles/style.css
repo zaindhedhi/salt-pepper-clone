@@ -1,3 +1,5 @@
+
+/* navbar started  */
 a{
     text-decoration: none;
     color: #ffffff;
@@ -25,14 +27,51 @@ a{
 }
 .menu{
     display: none;
-    position: absolute;
-    left: 20px;
-    margin: 10px;
+}
+/* navbar ended  */
+
+/* container started  */
+.container{
+    width: 100%;
+}
+/* container ended  */
+
+/* main started  */
+/* section 01  */
+.order-btn{
+    display: block;
+    text-align: center;
 }
 
-@media(max-width: 755px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px){
     .menu{
         display: block;
     }
- 
+    a{
+        display: none;
+    }
+    .franchise-btn{
+        display: none;
+    }
+}
+@media(max-width: 400px){
+    .order-online-btn{
+        display: none;
+    }
 }
